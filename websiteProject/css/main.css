@@ -1,0 +1,34 @@
+.indexbody {
+    background-color: #3285a8;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(113, 177, 121);
+}
+
+
+.logo {
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.horrorbody{
+    background-color: black;
+}
+
+
+.goldstar {
+    height: 50px;
+    width: 50px;
+}
+
+
