@@ -108,6 +108,11 @@ ul a:visited {
 
 }
 
+.horrorGoldStars {
+    background-color: red;
+    margin-bottom: 20px;
+}
+
 
 .FeaturedMoviesSection {
 
@@ -118,4 +123,29 @@ ul a:visited {
 .movieTitle {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-weight: bold;
+    background-color: rgba(129, 42, 36, 0.315);
+}
+
+.movieTitleHorror {
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Horror related */
+
+.horrorbody {
+    background-color: rgb(19, 18, 18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.horrorTitle {
+    color: white;
+    height: 80px;
+}
+
+.reviewText {
+    color: white;
+    
 }
