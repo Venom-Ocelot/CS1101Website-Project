@@ -1,34 +1,121 @@
-.indexbody {
-    background-color: #3285a8;
+.index {
+    background-color: #a83232;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.indexfooter {
+    background-color: silver;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logoText {
+    display: flex;
+    background-color: #9b2c2c;
+    padding: 10px;
+}
+
 
 ul {
     list-style-type: none;
-    
+    display: flex;
+
 }
+
 
 li {
-    float: left;
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(113, 177, 121);
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    
+
+    justify-content: center;
+    background-color: rgb(113, 133, 177);
+    margin: 5px;
+    flex: 1;
+    padding: 3px;
+
+}
+
+li:hover {
+    background-color: rgb(85, 101, 134);
+}
+
+ul a:visited {
+    color: yellow;
 }
 
 
-.logo {
-    text-align: right;
-    margin-right: 20px;
+.movieCategory {
+    background-color: #9b2c2c;
 }
 
 
-.horrorbody{
-    background-color: black;
+.movieTextItems {
+    background-color: brown;
 }
 
+.gallery {
+    border: #9b2c2c solid 20px;
+    width: 100px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.gallery:hover {
+    border: solid 20px #966161;
+
+}
+
+.movieContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuredMovies {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+    /* background-color: #9b2c2c; */
+}
 
 .goldstar {
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+}
+
+.goldstars {
+    background-color: rgb(60, 60, 139);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
+.FeaturedMoviesSection {
+
+   
+    background-color: #a32f2f;
+}
+
+.movieTitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
