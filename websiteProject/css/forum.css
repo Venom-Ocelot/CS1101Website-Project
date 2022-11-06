@@ -38,6 +38,8 @@ body {
 
     padding-left: 20px;
     padding-right: 20px;
+
+    margin-bottom: 100px;
 }
 
 .post {
@@ -102,4 +104,11 @@ li:hover {
 
 ul a:visited {
     color: yellow;
+}
+
+
+.postTitle a:visited {
+    color: green;
+
+
 }

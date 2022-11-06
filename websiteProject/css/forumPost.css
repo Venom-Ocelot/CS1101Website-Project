@@ -1,6 +1,17 @@
+body {
+    background-color: rgb(255, 228, 177);
+}
+
 .forumPost {
-    height: 100px;
+    height:auto;
+    width: auto;
+
+
     display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+
+    background-color: rgb(205, 137, 11);
 }
 
 
@@ -14,21 +25,55 @@
 .forumText {
     display: flex;
     align-self: left;
-    background-color: blue;
+    background-color: green;
     padding-left: 10px;
     padding-right: 10px;
+    align-self: center;
+    
 }
 
 .goldStar {
     height: 20px;
     width: 20px;
+    align-self: center;
 }
 
 .goldstars {
     display: flex;
     background-color: red;
+
 }
 
 .comment {
-background-color: orange;
+    background-color: orange;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+
+li {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    
+
+    justify-content: center;
+    background-color: rgb(203, 52, 22);
+    margin: 5px;
+    flex: 1;
+    padding: 3px;
+
+}
+
+li:hover {
+    background-color: rgb(85, 101, 134);
+}
+
+ul a:visited {
+    color: yellow;
 }
