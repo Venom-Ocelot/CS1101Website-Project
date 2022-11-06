@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup page</title>
 </head>
-<body>
+
+
+<body style="background-color: rgb(160, 195, 175);">
+
+
     <div class="signUp"></div>
-      <h1>Sign up</h1>
+      <h1>Sign  Up</h1>
       <h4>Post on the forum!</h4>
-      <form>
+
+
+
+
+      <form name="myForm" method="post" onsubmit="return validateForm()">
 
         <label for="email">Email:</label>
         <input type="email" name="email" />
@@ -24,9 +32,8 @@
 
         <label for="confirm">Confirm Password:</label>
         <input type="password" name="confirm" />
-        <input type="button" value="Submit" />
+        <input type="submit" value="Submit" />
         <br>
-
 
       </form>
 
@@ -34,5 +41,36 @@
 
 
     </div>
+
+
+    <script>
+    function validateForm() {
+      let x = document.forms["myForm"]["email"].value;
+      let y = document.forms["myForm"]["password"].value;
+      let z = document.forms["myForm"]["confirm"].value;
+
+      if (x == "") {
+        alert("Email must be filled out");
+        return false;
+      }
+      
+      else if (y == "") {
+        alert("Password must be filled out");
+        return false;
+      }
+
+      else if (z == "") {
+        alert("Confirm password");
+        return false;
+      }
+
+      else if (z != y) {
+        alert("Sorry, your passwords do not match.");
+        return false;
+      }
+
+
+    }
+    </script>
 </body>
 </html>
