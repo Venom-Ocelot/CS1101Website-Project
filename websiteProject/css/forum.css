@@ -1,0 +1,105 @@
+body {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    
+    background-color: rgb(240, 190, 100);
+
+}
+
+.TitleBox {
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+
+
+}
+
+.allPosts {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+}
+
+.ForumHeader {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(94, 121, 86);
+    width: 800px;
+    margin: auto;
+
+    align-items: center;
+    align-self: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.post {
+    display: flex;
+
+    padding-top: 2.5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 2.5px;
+
+    background-color: rgb(118, 5, 5);
+    border: rgb(227, 211, 181) solid 2px;
+}
+
+.postImage {
+    width: 100px;
+    height: auto;
+
+    border: red solid 2px;
+
+}
+
+.postTextbox {
+    background-color: #f0be64;
+
+    padding-left: 10px;
+
+    width: 600px;
+    
+}
+
+
+.postTitle {
+    color: blue;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+
+li {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    
+
+    justify-content: center;
+    background-color: rgb(113, 133, 177);
+    margin: 5px;
+    flex: 1;
+    padding: 3px;
+
+}
+
+li:hover {
+    background-color: rgb(85, 101, 134);
+}
+
+ul a:visited {
+    color: yellow;
+}
