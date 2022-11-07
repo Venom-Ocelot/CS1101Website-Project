@@ -77,3 +77,14 @@ li:hover {
 ul a:visited {
     color: yellow;
 }
+
+
+.indexfooter {
+    background-color: silver;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+}
